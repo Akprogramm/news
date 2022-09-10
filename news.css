@@ -1,0 +1,86 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.btn{
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 55px;
+    height: 35px;
+}
+
+.header{
+    height: 7vh;
+    width: 100%;
+    background-color: red;
+}
+
+.header2{
+    height: 7vh;
+    width: 100%;
+    background-color: black;
+}
+
+.box{
+    height: 86%;
+    width: 100%;
+    background-color:rgb(212, 212, 212);
+}
+
+.cls1{
+    height: 100%;
+    width: 30vw;
+    border: 2px solid black;
+    background-color:lightcyan;
+    animation: anime 0.5s ;
+}
+
+@keyframes anime {
+    from { width: 0vw;}
+    to { width: 30vw;}
+  }
+
+
+.cls1{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    font-size: 40px;
+    text-decoration: underline;
+}  
+
+.c1{
+    height: 10vh;
+    overflow: hidden;
+    font-size: 30px;
+}
+
+.innerbox{
+    background-color: white;
+    height: 70vh;
+    width: 50vw;
+    float: right;
+    margin-top: 7vh;
+    margin-right: 7vw;
+    border: 5px black;
+    border-radius: 10px;
+    border-style:double;
+    overflow: scroll;
+    overflow-x: hidden;
+
+
+}
+
+
+.title{
+     margin-top: -45px;
+    margin-left: 42vw; 
+    font-size: 40px;
+    color: rgb(97, 6, 6);
+    font-style: italic;
+    text-decoration:underline;
+}
